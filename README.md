@@ -9,15 +9,15 @@ npm install
 
 Getting Started
 ------------
-* Build Application
-  ```
-  npm run build
-  ```
-* Start Application
+* Start Dev (watch the `src` folder on file change)
   ```
   npm start
   ```
 * Browse 
   ```
   http://localhost:3000
+  ```
+* Build for production
+  ```
+  npm run build
   ```

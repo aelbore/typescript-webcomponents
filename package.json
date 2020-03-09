@@ -1,11 +1,10 @@
 {
-  "name": "typescript-webcomponents",
+  "name": "hello-world",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "aria-build -f es -i ./src/hello-world.ts",
-    "start": "ts-node ./tools/server.ts"
+    "build": "aria-build -d -f es,umd -i ./src/hello-world.ts --compress",
+    "start": "ts-node ./tools/build.ts"
   },
   "repository": {
     "type": "git",
