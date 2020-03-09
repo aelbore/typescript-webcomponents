@@ -1,0 +1,28 @@
+{
+  "name": "typescript-webcomponents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "aria-build -f es -i ./src/hello-world.ts",
+    "start": "ts-node ./tools/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aelbore/typescript-webcomponents.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aelbore/typescript-webcomponents/issues"
+  },
+  "homepage": "https://github.com/aelbore/typescript-webcomponents#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.9.0",
+    "aria-build": "^0.2.2",
+    "aria-fs": "^0.2.2",
+    "express": "^4.17.1"
+  }
+}
